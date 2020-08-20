@@ -90,6 +90,7 @@
             top: 0px;
             margin: 0px;
             height: 100px;
+            z-index: 1;
         }
         
         ul {
@@ -124,17 +125,21 @@
             position: fixed;
             top: 100px;
             bottom: 100px;
-            height: 800px;
+            height: 0.8;
             margin-right: 80%;
             background-color: rgb(53, 237, 172);
             float: left;
             text-align: center;
         }
         
+        main::-webkit-scrollbar {
+            display: none;
+        }
+        
         main {
             position: absolute;
             top: 100px;
-            height: 800px;
+            height: 0.8;
             clear: left;
             margin-top: 0px;
             margin-left: 20%;
