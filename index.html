@@ -84,12 +84,13 @@
         header {
             width: 100%;
             text-align: center;
-            background-color: rgb(165, 65, 237);
+            background-color: #012326;
+            color: #ddd;
             display: inline-block;
             position: fixed;
             top: 0px;
             margin: 0px;
-            height: 100px;
+            height: 0.2;
             z-index: 1;
         }
         
@@ -105,7 +106,7 @@
         }
         
         li a:hover {
-            color: rgb(255, 248, 0);
+            color: #f2b999;
             font-size: 50px;
         }
         
@@ -113,12 +114,11 @@
             font-family: "Roboto Condensed", sans-serif;
             font-size: 30px;
             font-weight: bold;
-            color: black;
             display: inline-block;
             padding-top: 20px;
             padding-bottom: 20px;
             border-bottom-style: dotted;
-            border-bottom-color: rgb(144, 247, 210);
+            border-bottom-color: #b1bf9b;
         }
         
         #nav {
@@ -127,7 +127,7 @@
             bottom: 100px;
             height: 0.8;
             margin-right: 80%;
-            background-color: rgb(53, 237, 172);
+            background-color: #86a66f;
             float: left;
             text-align: center;
         }
@@ -146,13 +146,21 @@
             overflow: scroll;
             scroll-behavior: smooth;
             padding-left: 10px;
-            background-color: #ff7939;
+            background-color: #a65746;
         }
         
         article {
-            background-color: #fffa39;
+            background-color: #f2b999;
             padding: 25px;
             margin: 25px;
+            border-radius: 25px;
+        }
+        
+        #what-did-i-learn {
+            background-color: #f2b999;
+            padding: 25px;
+            margin: 25px;
+            margin-bottom: 25%;
             border-radius: 25px;
         }
         
@@ -161,11 +169,24 @@
             margin-bottom: 0px;
             width: 100%;
             text-align: center;
-            background-color: rgb(165, 65, 237);
+            background-color: #012326;
+            color: whitesmoke;
             display: inline-block;
             position: fixed;
             bottom: 0px;
-            height: 100px;
+            height: 0.2;
+        }
+        
+        footer a {
+            color: thistle;
+        }
+        
+        footer a:hover {
+            color: tan;
+        }
+        
+        footer a:active {
+            color: tan;
         }
         
         footer h2 {
@@ -177,7 +198,7 @@
 <body>
     <header>
         <h1 class="heading">A Beautiful Mind</h1>
-        <h4 class="heading">Analysis By Darsh Parikh</h4>
+        <h4 class="heading" style="font-size: 20px;">Analysis By Darsh Parikh</h4>
     </header>
     <section id="nav">
         <h1>Navigate</h1>
