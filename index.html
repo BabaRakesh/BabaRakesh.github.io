@@ -169,8 +169,8 @@
             margin: 25px;
             border-radius: 25px;
             animation-name: fade-in;
-            animation-duration: 2s;
-            animation-delay: 1s;
+            animation-duration: 3s;
+            animation-delay: 3s;
             animation-timing-function: ease-in-out;
             animation-fill-mode: forwards;
             animation-iteration-count: 1;
@@ -182,6 +182,31 @@
             }
             100% {
                 opacity: 100%;
+            }
+        }
+        
+        #image {
+            background-image: url("https://bohatala.com/wp-content/uploads/2018/08/mind.jpg");
+            height: 100%;
+            background-size: cover;
+            animation-name: pan-in;
+            animation-duration: 1s;
+            animation-delay: 0s;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards;
+            animation-iteration-count: 1;
+        }
+        
+        @keyframes pan-in {
+            0% {
+                height: 0%;
+                opacity: 0%;
+                width: 0%;
+            }
+            100% {
+                opacity: 100%;
+                width: auto;
+                height: 100%;
             }
         }
         
@@ -242,6 +267,7 @@
         </ul>
     </section>
     <main>
+        <article class="post" id="image"></article>
         <article class="post" id="title">
             <h2>Why the Title; A Beautiful Mind</h2>
             <hr />
